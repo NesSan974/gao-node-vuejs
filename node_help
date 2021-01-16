@@ -1,0 +1,27 @@
+mkdir project
+cd project
+
+npm init
+npm install express sequelize sequelize-cli mysql2 body-parser cors --save
+
+npx sequelize init
+
+#edit  config/config.json
+
+
+npx sequelize model:generate
+mkdir controller
+
+#prend le skelton de gao-node-react/controller/skeleton.js
+
+
+
+#vuejs
+
+vue init webpack client
+cd client
+npm install axios
+npm install vuetify
+
+
+https://bezkoder.com/node-js-tutorial/
